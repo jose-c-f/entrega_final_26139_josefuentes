@@ -12,7 +12,7 @@ La API REST de Spring Boot está deployada en [Render](https://render.com), el f
 |---------|--------|
 | 🖥️ **Frontend** (React + Vite, en Vercel) | https://jose-c-f-articulos-frontend.vercel.app/ |
 | ⚙️ **API REST** (Spring Boot, en Render) | https://articulos-api.onrender.com/api/articulos |
-| 🎬 **Video demo** | https://github.com/jose-c-f/entrega_final_26139_josefuentes/docs/video/SpringBoot.mp4 |
+| 🎬 **Video demo** | [Ver abajo ⬇️](#video-demo) · [descargar mp4](https://github.com/jose-c-f/entrega_final_26139_josefuentes/raw/main/docs/video/SpringBoot.mp4) |
 
 > ⏳ El backend usa el plan gratuito de Render: tras ~15 min de inactividad se duerme y la
 > primera petición puede tardar ~30–60 s en responder.
@@ -26,6 +26,13 @@ La API REST de Spring Boot está deployada en [Render](https://render.com), el f
   Si preferís que abra el VIDEO, reemplazá la URL entre paréntesis por el link del video.
   Pegá la captura en: docs/img/frontend.png
 -->
+
+### Video demo
+
+<video src="https://github.com/jose-c-f/entrega_final_26139_josefuentes/raw/main/docs/video/SpringBoot.mp4" controls width="720"></video>
+
+> Si el reproductor no carga, abrí el archivo directamente:
+> [docs/video/SpringBoot.mp4](https://github.com/jose-c-f/entrega_final_26139_josefuentes/raw/main/docs/video/SpringBoot.mp4)
 
 ---
 
