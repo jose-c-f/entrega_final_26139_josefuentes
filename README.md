@@ -19,7 +19,7 @@ La API REST de Spring Boot está deployada en [Render](https://render.com), el f
 
 ### Frontend en funcionamiento
 
-[![Frontend de la aplicación](docs/img/frontend.png)](https://&lt;completar&gt;.vercel.app)
+[![Frontend de la aplicación](docs/img/frontend.png)](https://jose-c-f-articulos-frontend.vercel.app/)
 
 <!--
   La imagen de arriba es clickeable. Apunta al frontend de Vercel.
