@@ -29,12 +29,11 @@ La API REST de Spring Boot está deployada en [Render](https://render.com), el f
 
 ### Video demo
 
-<video src="https://github.com/jose-c-f/entrega_final_26139_josefuentes/raw/main/docs/video/SpringBoot.mp4" controls width="720"></video>
 
 
+https://github.com/user-attachments/assets/ff5ec077-9d49-4026-be17-3a8b1ff95990
 
-> Si el reproductor no carga, abrí el archivo directamente:
-> [docs/video/SpringBoot.mp4](https://github.com/jose-c-f/entrega_final_26139_josefuentes/raw/main/docs/video/SpringBoot.mp4)
+
 
 ---
 
