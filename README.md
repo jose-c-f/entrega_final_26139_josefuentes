@@ -1,4 +1,4 @@
-# API REST (Spring Boot) en Render + TiDB
+# API REST (Spring Boot)
 
 Este proyecto consiste en un backend implementado como API REST con Spring Boot y un frontend.
 
