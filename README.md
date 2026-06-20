@@ -10,7 +10,7 @@ La API REST de Spring Boot está deployada en [Render](https://render.com), el f
 
 | Recurso | Enlace |
 |---------|--------|
-| 🖥️ **Frontend** (React + Vite, en Vercel) | <!-- TODO: completar --> https://&lt;completar&gt;.vercel.app |
+| 🖥️ **Frontend** (React + Vite, en Vercel) | <!-- TODO: completar --> https://jose-c-f-articulos-frontend.vercel.app/ |
 | ⚙️ **API REST** (Spring Boot, en Render) | https://articulos-api.onrender.com/api/articulos |
 | 🎬 **Video demo** | <!-- TODO: completar --> https://&lt;completar-link-del-video&gt; |
 
