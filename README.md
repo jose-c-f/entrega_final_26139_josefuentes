@@ -12,7 +12,7 @@ La API REST de Spring Boot está deployada en [Render](https://render.com), el f
 |---------|--------|
 | 🖥️ **Frontend** (React + Vite, en Vercel) | https://jose-c-f-articulos-frontend.vercel.app/ |
 | ⚙️ **API REST** (Spring Boot, en Render) | https://articulos-api.onrender.com/api/articulos |
-| 🎬 **Video demo** | [Ver abajo ⬇️](#video-demo) · [descargar mp4](https://github.com/jose-c-f/entrega_final_26139_josefuentes/raw/main/docs/video/SpringBoot.mp4) |
+| 🎬 **Video demo** | [Ver abajo ⬇️](#video-demo) |
 
 > ⏳ El backend usa el plan gratuito de Render: tras ~15 min de inactividad se duerme y la
 > primera petición puede tardar ~30–60 s en responder.
@@ -29,11 +29,7 @@ La API REST de Spring Boot está deployada en [Render](https://render.com), el f
 
 ### Video demo
 
-
-
 https://github.com/user-attachments/assets/ff5ec077-9d49-4026-be17-3a8b1ff95990
-
-
 
 ---
 
