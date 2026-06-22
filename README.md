@@ -11,7 +11,7 @@ La API REST de Spring Boot está deployada en [Render](https://render.com), el f
 | Recurso | Enlace |
 |---------|--------|
 | 🖥️ **Frontend** (React + Vite, en Vercel) | https://jose-c-f-articulos-frontend.vercel.app/ |
-| ⚙️ **API REST** (Spring Boot, en Render) | https://articulos-api.onrender.com/api/articulos |
+| ⚙️ **API REST** (Spring Boot, en Render) | https://entrega-final-26139-josefuentes.onrender.com/api/articulos |
 | 🎬 **Video demo** | [Ver abajo ⬇️](#video-demo) |
 
 > ⏳ El backend usa el plan gratuito de Render: tras ~15 min de inactividad se duerme y la
@@ -148,7 +148,7 @@ comunica con la API de Render.
 
    | Variable       | Valor |
    |----------------|-------|
-   | `VITE_API_URL` | `https://articulos-api.onrender.com` |
+   | `VITE_API_URL` | `https://entrega-final-26139-josefuentes.onrender.com` |
 
 4. Click en **Deploy**. Al terminar, Vercel te da la URL pública
    (`https://<tu-proyecto>.vercel.app`) — esa es la que va en la sección
@@ -258,7 +258,7 @@ Para usarlo:
 Los ejemplos apuntan a la API publicada en Render. Si la corrés en local, reemplazá la
 URL base por `http://localhost:8080`.
 
-> 🔗 URL base de producción: `https://articulos-api.onrender.com`
+> 🔗 URL base de producción: `https://entrega-final-26139-josefuentes.onrender.com`
 
 ### 4.1 Endpoints
 
@@ -280,23 +280,23 @@ El cuerpo JSON de un artículo tiene esta forma:
 
 ```bash
 # Listar todos (al inicio devuelve [])
-curl https://articulos-api.onrender.com/api/articulos
+curl https://entrega-final-26139-josefuentes.onrender.com/api/articulos
 
 # Obtener uno por id
-curl https://articulos-api.onrender.com/api/articulos/1
+curl https://entrega-final-26139-josefuentes.onrender.com/api/articulos/1
 
 # Crear un artículo
-curl -X POST https://articulos-api.onrender.com/api/articulos \
+curl -X POST https://entrega-final-26139-josefuentes.onrender.com/api/articulos \
      -H "Content-Type: application/json" \
      -d '{"nombre":"Teclado","precio":29.99,"imagen":"teclado.png"}'
 
 # Actualizar el artículo con id 1
-curl -X PUT https://articulos-api.onrender.com/api/articulos/1 \
+curl -X PUT https://entrega-final-26139-josefuentes.onrender.com/api/articulos/1 \
      -H "Content-Type: application/json" \
      -d '{"nombre":"Teclado mecánico","precio":49.99,"imagen":"teclado.png"}'
 
 # Eliminar el artículo con id 1
-curl -X DELETE https://articulos-api.onrender.com/api/articulos/1
+curl -X DELETE https://entrega-final-26139-josefuentes.onrender.com/api/articulos/1
 ```
 
 > **En PowerShell (Windows)** usá `curl.exe` en lugar de `curl` (este último es un alias
