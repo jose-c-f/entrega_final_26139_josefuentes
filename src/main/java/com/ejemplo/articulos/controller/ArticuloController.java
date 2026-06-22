@@ -22,8 +22,10 @@ public class ArticuloController {
     }
 
     @GetMapping
-    public List<Articulo> listar() {
-        return articuloService.listarArticulos();
+    public List<Articulo> listar(
+            @RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "50") int size) {
+        return articuloService.listarArticulos(page, size);
     }
 
     @GetMapping("/{id}")
@@ -40,7 +42,7 @@ public class ArticuloController {
 
     @PutMapping("/{id}")
     public ResponseEntity<Articulo> actualizar(@PathVariable Long id, @RequestBody Articulo articulo) {
-        if (articuloService.obtenerArticuloPorId(id).isEmpty()) {
+        if (!articuloService.existeArticulo(id)) {
             return ResponseEntity.notFound().build();
         }
         return ResponseEntity.ok(articuloService.actualizarArticulo(id, articulo));
@@ -48,7 +50,7 @@ public class ArticuloController {
 
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> eliminar(@PathVariable Long id) {
-        if (articuloService.obtenerArticuloPorId(id).isEmpty()) {
+        if (!articuloService.existeArticulo(id)) {
             return ResponseEntity.notFound().build();
         }
         articuloService.eliminarArticulo(id);

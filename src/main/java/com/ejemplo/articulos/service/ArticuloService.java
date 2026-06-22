@@ -7,8 +7,9 @@ import java.util.Optional;
 
 // Interfaz que define el contrato del servicio
 public interface ArticuloService {
-    List<Articulo> listarArticulos();
+    List<Articulo> listarArticulos(int page, int size);
     Optional<Articulo> obtenerArticuloPorId(Long id);
+    boolean existeArticulo(Long id);
     Articulo guardarArticulo(Articulo articulo);
     Articulo actualizarArticulo(Long id, Articulo articulo);
     void eliminarArticulo(Long id);
